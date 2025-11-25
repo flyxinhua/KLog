@@ -8,10 +8,10 @@ plugins {
 
 android {
     namespace = "com.sanvar.log"
-    compileSdk = 36
+    compileSdk = 29
 
     defaultConfig {
-        minSdk = 23
+        minSdk = 21
         consumerProguardFiles("consumer-rules.pro")
     }
 
@@ -36,7 +36,7 @@ android {
 mavenPublishing {
     publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL)
     signAllPublications()
-    coordinates("io.github.flyxinhua", "klog", "1.0.0")
+    coordinates("io.github.flyxinhua", "klog", "1.0.1")
 
     pom {
         name.set("KLog")
@@ -66,7 +66,8 @@ mavenPublishing {
 
 
 dependencies {
-    implementation(libs.androidx.core.ktx)
-    implementation(libs.androidx.appcompat)
-    implementation(libs.material)
+//    implementation(libs.androidx.core.ktx)
+//    implementation(libs.androidx.appcompat)
+//    implementation(libs.material)
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4")
 }

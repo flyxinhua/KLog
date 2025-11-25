@@ -1,6 +1,6 @@
 # KLog
 
-[![Maven Central](https://img.shields.io/maven-central/v/io.github.flyxinhua/klog.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22io.github.flyxinhua%22%20AND%20a:%22klog%22)
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.flyxinhua/klog.svg?label=Maven%20Central)](https://central.sonatype.com/artifact/io.github.flyxinhua/klog)
 
 KLog 是一个为 Android 设计的轻量、强大且高度可扩展的日志框架。它拥有简洁的 API，并采用高性能的懒加载设计，同时通过可插拔的打印器（`LogPrinter`）架构，支持将日志同时输出到 Logcat、文件、网络或任何你想要的目标。
 
